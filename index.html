@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		html {
+			font-size: 625%;
+		}
+		body {
+			font-size:  12px;
+		}
+		p:nth-child(1){
+			font-size: 12px;
+		}
+		p:nth-child(2){
+			font-size: 14px;
+		}
+		p:nth-child(2) mark{
+			font-size: 1em;
+		}
+		p:nth-child(3){
+			font-size: 14px;
+		}
+		p:nth-child(3) mark{
+			font-size: 1rem;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- 
+		px可以直接当做绝对单位来使用 
+		em 相对父元素进行缩放的 
+		rem 相对html缩放的 
+
+
+		浏览器字体大小默认为 16px
+
+		10 / 16  * %  =  625%
+
+	-->
+	<p>px</p>
+	<p><mark>1em</mark></p>
+	<p><mark>rem</mark></p>
+</body>	
+</html>
